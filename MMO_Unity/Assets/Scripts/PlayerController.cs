@@ -11,8 +11,6 @@ public class PlayerController : MonoBehaviour
         Managers.Input.KeyAction -= OnKeyboard;
         Managers.Input.KeyAction += OnKeyboard;
     }
-
-    float _yAngle = 0.0f;
     void Update()
     {
 
